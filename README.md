@@ -43,7 +43,7 @@ After analysis, they determine that the system is down due to a server overload 
 </p>
     
 <h3>Step 3: Working the Issue (Resolution)</h3>
- The representative coordinates with the IT team to:
+ The representative coordinates with the IT team to: </br></br>
 
 - Increase Server Capacity: Temporarily allocate additional resources to handle the current load.
 - Implement Traffic Throttling: Manage the number of users accessing the system to prevent further strain.
