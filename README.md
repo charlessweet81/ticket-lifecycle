@@ -3,7 +3,18 @@
 </p>
 
 <h1>osTicket - Ticket Lifecycle: Intake Through Resolution</h1>
-This tutorial outlines the lifecycle of a ticket from intake to resolution within the open-source help desk ticketing system osTicket.<br />
+In this use case, we walk through a real-world scenario of handling a critical issue in a banking environment: the entire mobile and online banking system is down. <br /><br />
+
+This example demonstrates how an organization’s help desk and IT support teams coordinate to identify, address, and resolve a high-priority issue while ensuring clear communication and documentation at every step. <br /><br />
+
+The goal of this example is to showcase best practices for:
+
+- Ticket Creation and Intake: Accurately capturing the problem reported by the end-user.
+- Assignment and Communication: Properly prioritizing, categorizing, and assigning the issue to the right team.
+- Incident Resolution: Executing a systematic approach to diagnosing and fixing the issue.
+- Documentation and Reporting: Providing a detailed resolution log for accountability and future reference.
+
+This scenario emphasizes the importance of efficiency, collaboration, and clear communication in handling critical service outages, ensuring minimal disruption for users and a swift return to normal operations.
 
 <h2>Environments and Technologies Used</h2>
 
