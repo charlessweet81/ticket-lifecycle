@@ -36,7 +36,7 @@ This scenario emphasizes the importance of efficiency, collaboration, and clear 
 
 <h2>Lifecycle Stages</h2>
   
-<h3>Step 1: Ticket Creation (Intake)</h4>h3>
+<h3>Step 1: Ticket Creation (Intake)</h4>
 
 <p>
 <img src="https://i.imgur.com/leJAf2L.png" height="80%" width="80%" alt=""/>
