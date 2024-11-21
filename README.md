@@ -20,114 +20,74 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 - Step 1: Ticket Creation (Intake)
 - Step 2: Viewing the Ticket Properties (Assignment & Communication)
 - Step 3: Working the Issue (Resolution)
+- Step 4: Confirm the Resolution
+- Step 5: Document the Resolution
 
 <h2>Lifecycle Stages</h2>
-<h3>Ticket #1: Mobile banking is down</h4>
-<p>
   
-<h4>Step 1: Ticket Creation (Intake)</h4>h4>
+<h3>Step 1: Ticket Creation (Intake)</h4>h3>
 
 <p>
 <img src="https://i.imgur.com/leJAf2L.png" height="80%" width="80%" alt=""/>
 </p>
 
-As an end-user, create the following ticket "entire mobile/online banking system is down"
+The representative logs into the ticketing system and reads through the initial problem reported by the end user:
+"Entire mobile/online banking system is down."
 
-<h4>Step 2: Viewing the Ticket Properties (Assignment & Communication)</h4>
+They check for related tickets or system alerts to confirm the scope of the issue.
+They investigate the root cause by consulting server logs, system health monitoring tools, and team updates.
 
-
-  - As a Help Desk Agent (john), observe the ticket’s properties:
-    - Priority
-    - Department
-    - SLA
-    - Assigned To
-
+<h3>Step 2: Viewing the Ticket Properties (Assignment & Communication)</h3>
+<p>
+After analysis, they determine that the system is down due to a server overload from an unexpectedly high number of users trying to log in simultaneously.
+</p>
     
-- Step 3: Working the Issue (Resolution):
-  - Set Properties to the ticket
-  - Sev-A (1 hour, 24/7)
-  - Online Banking Department
+<h3>Step 3: Working the Issue (Resolution)</h3>
+ The representative coordinates with the IT team to:
+
+- Increase Server Capacity: Temporarily allocate additional resources to handle the current load.
+- Implement Traffic Throttling: Manage the number of users accessing the system to prevent further strain.
+- Restart Affected Systems: Restart specific services or servers to restore normal operations.
+- Test the System: Conduct internal testing to confirm that users can access online banking without issues.
  
-- Resolution: 
+<h3>Step 4: Confirm the Resolution</h3>
 
-Note the resolution in the ticketing system with a clear and concise summary of the issue, actions taken, and confirmation of the resolution. Here's an example of how they might document it:
+Once the issue is resolved, the representative ensures: </br>
 
-Problem Identified:
-The online banking system experienced a server overload due to an unexpectedly high number of concurrent users. This caused intermittent access issues and system downtime for all users.
+- Internal testing is successful across various devices and platforms (e.g., mobile apps and browsers).
+- External feedback confirms users can log in and perform transactions without errors.
 
-Action Taken:
+<h3>Step 5: Document the Resolution</h3>
+
+<p> The representative updates the ticket with a detailed resolution note to keep a record of the issue. For example: </br>
+
+Problem Identified: </br> </br>
+The online banking system experienced a server overload due to an unexpectedly high number of concurrent users. This caused intermittent access issues and system downtime for all users. </br> </br>
+
+Action Taken: </br>
 
 - Identified the root cause via server logs and performance monitoring tools.
 - Scaled server capacity temporarily to manage the increased load.
 - Implemented traffic throttling measures to prevent further overload.
 - Conducted tests to confirm system stability.
 
-Resolution Confirmation:
+Resolution Confirmation: </br>
 
 - System functionality restored as of [Time and Date].
 - Verified normal operations through internal checks and user feedback.
-- Next Steps (if applicable):
 
-Scheduled a review of server capacity and traffic management policies. </br>
-Recommended a permanent server upgrade to prevent recurrence. </br>
+Next Steps (if applicable): </br>
+
+- Scheduled a review of server capacity and traffic management policies.
+- Recommended a permanent server upgrade to prevent recurrence.
 
 Status: </br>
-Ticket marked as Resolved.
+- Ticket marked as Resolved.
 
 </p>
 
 <p>
-<img src="https://i.imgur.com/PCo4ATU.png" height="80%" width="80%" alt=""/>
-</p>
-
-<br />
-
-<h4>Ticket #2: Mobile banking is down</h4>
-<p>
-- Ticket Creation (Intake): As an end-user, create the following ticket "entire mobile/online banking system is down"
-- Assignment & Communication:
-  - As a Help Desk Agent (john), observe the ticket’s properties:
-    - Priority
-    - Department
-    - SLA
-    - Assigned To
-
-- Working the issue (as Jane):
-  - Set Properties to the ticket
-  - Sev-A (1 hour, 24/7)
-  - Assign to Online Banking
- 
-- Resolution: 
-</p>
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt=""/>
-</p>
-
-<br />
-
-<h4>Ticket #3: CFO’s laptop will no longer turn on</h4>
-<p>
-- Intake: As an end-user, create the following ticket "accounting department needs adobe upgrade, broken"
-- Assignment & Communication:
-  - As a Help Desk Agent (john), observe the ticket’s properties:
-    - Priority
-    - Department
-    - SLA
-    - Assigned To
-
-- Working the issue (as John):
-  - Sev-B (4 hours, 24/7)
-  - Assign to Support
-
- 
-- Resolution: 
-
-
-</p>
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt=""/>
+<img src="https://i.imgur.com/dLaF1ul.png" height="80%" width="80%" alt=""/>
 </p>
 
 <br />
